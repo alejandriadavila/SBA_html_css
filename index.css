@@ -1,0 +1,95 @@
+main{
+    background-color: #f5f6fd;
+    background-image: linear-gradient(#f5f6fd, #c2c3f0, #4c3b9c);
+}
+
+#logo {
+    width: 40px;
+}
+
+.nav-link{
+    color: #5b47ba;
+}
+
+.nav-pills .nav-link.active{ 
+    background-color: #4c3b9c;
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+
+.nav-pills .nav-link.active:hover{
+    transform: scale(1.2);
+    }
+
+img{
+    border-radius: 25px;
+}
+
+h5{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.featureimage{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+td{
+    text-align: left;
+}
+
+.tableheader{
+    text-align: center;
+}
+
+.blog-post{
+    text-align: start;
+}
+
+.centered{
+    text-align: center;
+}
+
+.blogimages{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#roundedBox{
+    background-color: #40357a;
+    border-radius: 20px;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+
+#contactform{
+    text-align: start;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+
+.containerheading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#formbutton{
+    background-color: #ccd0f9;
+    transition-property: background-color;
+    transition-duration: .5s;
+    border: none;
+    color: black;
+}
+
+#formbutton:hover{
+    background-color: #271f47;
+    color: white;
+}
